@@ -1,0 +1,24 @@
+.temp-box {
+    border: solid black;
+    margin: 10% 30%;
+}
+
+.temp-box__red {
+    background-color: lightcoral;
+}
+
+.temp-box__orange {
+    background-color: coral;
+}
+
+.temp-box__yellow {
+    background-color: rgb(226, 226, 107);
+}
+
+.temp-box__green {
+    background-color: rgb(113, 191, 113);
+}
+
+.temp-box__teal {
+    background-color: rgb(62, 132, 132);
+}
