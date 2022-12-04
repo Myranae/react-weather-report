@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# Weather Report
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Skills Assessed
 
-## Available Scripts
+- Following directions and reading comprehension
+- Structuring content in HTML
+- Applying styles with CSS
+- Using variables
+- Creating functions
+- Manipulating the DOM
+- Handling events
+- Using Git
+- Designing an intentional user experience
+- Using Axios to call 3rd party APIs
+- Using a proxy server to manage API keys
+- Handling asynchronous calls
 
-In the project directory, you can run:
+## Goal
 
-### `yarn start`
+"Do I need to bring a jacket?" "Will it snow today?" "How hot will it be?" When we have questions like these, we often pull open a weather app!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Great weather apps do these two things:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Pull weather data from a data source
+1. Display the weather in readable, compelling way
 
-### `yarn test`
+Our goal is to create a fun, small weather app that focuses on displaying the weather.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Our weather app will set the weather using user interaction and get the weather from a 3rd party API, OpenWeather.
 
-### `yarn build`
+## How to Complete and Submit
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Follow the requirements below and build a small weather app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+At submission time, no matter where you are, submit the project via Learn.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## JavaScript Requirements
 
-### `yarn eject`
+You are required to use vanilla JavaScript for all parts of this project, including the optional enhancements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Axios
+The only extra JavaScript library we should load is [`Axios`](https://axios-http.com/docs/intro).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To download the `axios` node module, run `yarn install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To include axios in your project, include the following script tag below the script tag linking `index.js`:
+- `<script src="./node_modules/axios/dist/axios.min.js"></script>`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This should be done during the Wave 1 initial setup of your `index.html` page.
 
-## Learn More
+## Workflow Requirements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Create at least five git commits throughout this project
+- Use the following files and folders:
+  - `index.html`
+  - `src/index.js`
+  - `styles/index.css`
+  - `assets` folder, potentially for holding images
+- Create and add more folders and files as needed
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Content Requirements
 
-### Code Splitting
+For this project, there are no requirements around color schemes, font choices, or layouts. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Note that applying styles with CSS is one of many learning goals of this project -- it is not the central learning goal. You may enjoy being creative with styles, but we encourage you to not concern yourself with getting the styles perfect. Remember, you can always choose to continue working on styling after you've completed all functional requirements. 
 
-### Analyzing the Bundle Size
+However, _at a minimum_, your project must contain these elements:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Wave 2:
 
-### Making a Progressive Web App
+1. An element that displays the temperature
+1. A clickable element to increase temperature
+1. A clickable element to decrease temperature
+1. An element that displays a landscape
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Wave 3:
 
-### Advanced Configuration
+1. An element that displays the city name
+1. An element that contains an `<input type="text">` element, used to rename the city
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Wave 4:
 
-### Deployment
+1. A clickable element to get the current temperature of the displayed city name
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Wave 5:
 
-### `yarn build` fails to minify
+1. A `<select>` dropdown element to set the sky type
+1. An element that displays a sky
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Wave 6:
+
+1. A clickable element to reset the city name
+
+## Detailed Content Requirements
+
+[Wave 1: Create Wireframes and HTML](./ada-project-docs/wave-01.md)
+
+[Wave 2: Increase and Decrease Temperature](./ada-project-docs/wave-02.md)
+
+[Wave 3: Naming the City](./ada-project-docs/wave-03.md)
+
+[Wave 4: Calling APIs](./ada-project-docs/wave-04.md)
+
+[Wave 5: Selecting the Sky](./ada-project-docs/wave-05.md)
+
+[Wave 6: Resetting the City Name](./ada-project-docs/wave-06.md)
+
+[Optional Enhancements to inspire you](./ada-project-docs/optional-enhancements.md)
